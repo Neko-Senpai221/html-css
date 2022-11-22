@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* this is a comment */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+        #we{
+            width:100px;
+            height:80px;
+            overflow:hidden;
+            border:2px solid black;
+            border-radius: 10%;
+        }
+        .a{
+            width:400px;
+            height:400px;
+            display:inline-block;
+            margin:300px;
+            outline-style:double;
+            position:absolute;
+            left:30px;
+            top:40px;
+            background-image:linear-gradient(to right, blue, red);
+        }
+        #a{
+            width:150px;
+            height:150px;
+            background-color:cyan;
+            border:2px black solid;
+            margin:10px;
+        }
+        #b{
+            width:150px;
+            height:150px;
+            background-color:lightblue;
+            border:2px black solid;
+            margin:10px;
+        }
+        h1{
+            padding:30px;
+            max-width:none;
+            color:brown;
+            font-family: 'Syne Mono', monospace;
+            text-shadow:3px 3px 4px grey;
+        }
+        img{
+            width:100px;
+            height:100px;
+            float:right;
+            opacity:0.5;
+        }
+        div{
+            width:300px;
+            height:300px;
+            border:2px solid black;
+            margin-top:20px;
+        }
+        #ok::first-line{
+            color:red;
+             
+        }
+        div:hover{
+            box-shadow:3px 3px 4px red;
+        }
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width:300px;
+  height:300px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 60px;
+  height:50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+p{
+    background-color:cyan!important;
+}
+        
+  
+
+    </style>
+
+</head>
+<body>
+    <center>
+    <div>
+    <h1>this is a icon <span class="material-symbols-outlined">
+        keyboard_command_key
+        </span></h1>
+    </div>
+</center>
+   <div class="a">
+    <div id="a"><h1>box 1</h1></div>
+     <div id="b"><h1>box 2</h1> </div>
+
+   </div> 
+   <div id="we"><p>this is overflow hidden i guess.. so i will write some random words as an example to show how it works or what it does.</p></div>
+   <div>
+    <h2>hello</h2>
+   <img src="https://w7.pngwing.com/pngs/859/427/png-transparent-tom-cat-jerry-mouse-golden-age-of-american-animation-tom-and-jerry-cartoon-tom-jerry-mammal-cat-like-mammal-heroes-thumbnail.png">
+<p id="ok">today is a great day i guess..ohh..image is made with float. i mean position.. and also used opacity.</p>
+</div>
+<div class="dropdown">
+    <span>Mouse over me</span>
+    <div class="dropdown-content">
+    <p>Hello World!</p>
+    </div>
+  </div>
+
+
+</body>
+</html>

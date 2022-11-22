@@ -1,0 +1,64 @@
+h1{
+    color:brown;
+}
+p{
+    color:blue;
+}
+body{
+    text-align:center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+table, th, tr, td{
+    border:1px black solid;
+    text-align:center;
+    border-collapse:collapse;
+}
+.wee{
+    height:300px;
+    width:300px;
+    display:block;
+    border:2px black solid;
+}
+div{
+    height:100px;
+    width:100px;
+    border:2px red solid;
+    margin:20px;
+}
+#wee{
+    height:300px;
+    width:300px;
+    display:inline;
+    border:2px green solid;
+}
+ul{
+    text-align:start;
+}
+.we{
+    height:100px;
+    width:100px;
+    border:2px red solid;
+    margin:20px;  
+}
+span{
+    color:black;
+}
+header{
+    width:100%;
+    height:40px;
+    background-color:black;
+}
+footer{
+    width:100%;
+    height:40px;
+    background-color:black;
+}
+h2{
+    color:white;
+}
+
